@@ -17536,6 +17536,8 @@ function FhirClient(p) {
       }
       if (!p.headers) {p.headers = {};}
       p.headers['Authorization'] = h
+      // TJ
+      // console.log(h);
       //p.beforeSend = function (xhr) { xhr.setRequestHeader ("Authorization", h); }
 
       return p;
